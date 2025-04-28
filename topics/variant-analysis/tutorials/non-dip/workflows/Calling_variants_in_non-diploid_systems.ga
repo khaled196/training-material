@@ -38,7 +38,7 @@
             "outputs": [],
             "position": {
                 "left": 51,
-                "top": 65
+                "top": 174.56397406018885
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -65,7 +65,7 @@
             "outputs": [],
             "position": {
                 "left": 25,
-                "top": 167.734375
+                "top": 277.29834906018885
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -92,7 +92,7 @@
             "outputs": [],
             "position": {
                 "left": 5,
-                "top": 270.5
+                "top": 380.06397406018885
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -119,7 +119,7 @@
             "outputs": [],
             "position": {
                 "left": 0,
-                "top": 394.25
+                "top": 503.81397406018885
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"tag\": null}",
@@ -154,8 +154,8 @@
                 }
             ],
             "position": {
-                "left": 336.5,
-                "top": 0
+                "left": 335.32188180736654,
+                "top": 0.0
             },
             "post_job_actions": {
                 "HideDatasetActiontext_file": {
@@ -176,13 +176,7 @@
             "type": "tool",
             "uuid": "71a54431-4e1a-4472-b1bd-f8f9a7790525",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "html_file",
-                    "uuid": "4aebe771-098d-48ca-9155-f1e0858a51a2"
-                }
-            ]
+            "workflow_outputs": []
         },
         "5": {
             "annotation": "",
@@ -210,7 +204,7 @@
             ],
             "position": {
                 "left": 333.5,
-                "top": 115
+                "top": 224.56397406018885
             },
             "post_job_actions": {
                 "HideDatasetActiontext_file": {
@@ -231,13 +225,7 @@
             "type": "tool",
             "uuid": "88a42cbf-c8b6-4cbf-b344-9b3e3c45a045",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "html_file",
-                    "uuid": "37517da4-ceb4-45ee-a720-e8c257c45cfd"
-                }
-            ]
+            "workflow_outputs": []
         },
         "6": {
             "annotation": "",
@@ -274,7 +262,7 @@
             ],
             "position": {
                 "left": 321.5,
-                "top": 765
+                "top": 874.5639740601888
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19",
@@ -289,13 +277,7 @@
             "type": "tool",
             "uuid": "5b113fad-5ffb-411f-9879-f6282e763d7c",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "bam_output",
-                    "uuid": "e4377aa0-a311-42fd-b715-daf01c035520"
-                }
-            ]
+            "workflow_outputs": []
         },
         "7": {
             "annotation": "",
@@ -323,7 +305,7 @@
             ],
             "position": {
                 "left": 329.5,
-                "top": 244
+                "top": 353.56397406018885
             },
             "post_job_actions": {
                 "HideDatasetActiontext_file": {
@@ -344,13 +326,7 @@
             "type": "tool",
             "uuid": "d310b4c9-c42c-4814-a733-b3ee6b22c97e",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "html_file",
-                    "uuid": "404c3095-e1e5-4e4f-80d7-3082017da0ae"
-                }
-            ]
+            "workflow_outputs": []
         },
         "8": {
             "annotation": "",
@@ -378,7 +354,7 @@
             ],
             "position": {
                 "left": 331.5,
-                "top": 447
+                "top": 556.5639740601888
             },
             "post_job_actions": {
                 "HideDatasetActiontext_file": {
@@ -399,13 +375,7 @@
             "type": "tool",
             "uuid": "57cbf8b4-5fea-47f0-ac76-36e8fabadbd1",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "html_file",
-                    "uuid": "3ceb39f3-841c-4340-a35e-baaf92a21b4c"
-                }
-            ]
+            "workflow_outputs": []
         },
         "9": {
             "annotation": "",
@@ -442,7 +412,7 @@
             ],
             "position": {
                 "left": 316.1875,
-                "top": 990
+                "top": 1099.563974060189
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.19",
@@ -457,13 +427,7 @@
             "type": "tool",
             "uuid": "6261da71-f0ac-4179-a688-df8a71c19b72",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "bam_output",
-                    "uuid": "ccd46f47-0446-4570-8a0d-a6cf46a60c4c"
-                }
-            ]
+            "workflow_outputs": []
         },
         "10": {
             "annotation": "",
@@ -493,7 +457,7 @@
             ],
             "position": {
                 "left": 586.5,
-                "top": 122.734375
+                "top": 232.29834906018885
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MergeSamFiles/3.1.1.0",
@@ -508,13 +472,7 @@
             "type": "tool",
             "uuid": "3a7b6eae-bc97-4190-a6c9-8b8c455947d6",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "outFile",
-                    "uuid": "a9d38e58-97da-4e4a-bba9-6fbadea1ff4a"
-                }
-            ]
+            "workflow_outputs": []
         },
         "11": {
             "annotation": "",
@@ -542,7 +500,7 @@
             ],
             "position": {
                 "left": 832.5,
-                "top": 122
+                "top": 231.56397406018885
             },
             "post_job_actions": {
                 "HideDatasetActionmetrics_file": {
@@ -563,13 +521,7 @@
             "type": "tool",
             "uuid": "8f2528f7-0be4-4ea7-9516-ecae820e09bb",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "outFile",
-                    "uuid": "53cafeda-f914-4562-bde0-f990036aec4a"
-                }
-            ]
+            "workflow_outputs": []
         },
         "12": {
             "annotation": "",
@@ -598,7 +550,7 @@
             ],
             "position": {
                 "left": 1078.5,
-                "top": 122
+                "top": 231.56397406018885
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/freebayes/bamleftalign/1.3.9",
@@ -613,13 +565,7 @@
             "type": "tool",
             "uuid": "9a7797c4-e0cb-4baf-80f9-f27ff46eff7c",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output_bam",
-                    "uuid": "e37c3f62-b041-491e-828f-79c79e73d85d"
-                }
-            ]
+            "workflow_outputs": []
         },
         "13": {
             "annotation": "",
@@ -647,7 +593,7 @@
             ],
             "position": {
                 "left": 1324.5,
-                "top": 122
+                "top": 231.56397406018885
             },
             "post_job_actions": {
                 "HideDatasetActionout_file2": {
@@ -668,13 +614,7 @@
             "type": "tool",
             "uuid": "3daf6f14-257f-4f1d-b07e-a636c672b685",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "out_file1",
-                    "uuid": "a6bddbed-73bc-4384-8f14-d85f43da776f"
-                }
-            ]
+            "workflow_outputs": []
         },
         "14": {
             "annotation": "",
@@ -698,7 +638,7 @@
             ],
             "position": {
                 "left": 1603.5,
-                "top": 112
+                "top": 221.56397406018885
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.9+galaxy0",
@@ -713,13 +653,7 @@
             "type": "tool",
             "uuid": "86bf499d-3edd-49ad-90eb-da0ba29d9042",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "output_vcf",
-                    "uuid": "2dccb50a-d7cc-42fe-8ad3-5b3268d72977"
-                }
-            ]
+            "workflow_outputs": []
         },
         "15": {
             "annotation": "",
@@ -743,7 +677,7 @@
             ],
             "position": {
                 "left": 1850.796875,
-                "top": 88.234375
+                "top": 197.79834906018885
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/vcffilter/vcffilter2/1.0.0_rc3+galaxy3",
@@ -758,13 +692,7 @@
             "type": "tool",
             "uuid": "6b0c242b-757d-4e1e-b296-4e8fc924a925",
             "when": null,
-            "workflow_outputs": [
-                {
-                    "label": null,
-                    "output_name": "out_file1",
-                    "uuid": "51676790-9aff-4ba3-97c5-40ecc7495c31"
-                }
-            ]
+            "workflow_outputs": []
         },
         "16": {
             "annotation": "",
@@ -788,7 +716,7 @@
             ],
             "position": {
                 "left": 2073,
-                "top": 113
+                "top": 222.56397406018885
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/vcf2tsv/vcf2tsv/1.0.0_rc3+galaxy0",
@@ -805,9 +733,9 @@
             "when": null,
             "workflow_outputs": [
                 {
-                    "label": null,
+                    "label": "out_file1",
                     "output_name": "out_file1",
-                    "uuid": "8cf6f95d-d013-45a4-8e1c-6cfcbbb05de1"
+                    "uuid": "108f111b-602b-4ef9-abd3-036554bd5719"
                 }
             ]
         },
@@ -833,7 +761,7 @@
             ],
             "position": {
                 "left": 2307,
-                "top": 122
+                "top": 231.56397406018885
             },
             "post_job_actions": {},
             "tool_id": "Cut1",
@@ -844,9 +772,9 @@
             "when": null,
             "workflow_outputs": [
                 {
-                    "label": "cut_variants",
+                    "label": "out_file1",
                     "output_name": "out_file1",
-                    "uuid": "f2e84a79-a71f-4b5f-a526-55d8cd472a05"
+                    "uuid": "7a28747b-cac3-458c-b785-0cc4d65d7409"
                 }
             ]
         }
@@ -854,6 +782,6 @@
     "tags": [
         "variant-analysis"
     ],
-    "uuid": "4a2be964-fce2-42da-9643-24292f8255dc",
-    "version": 2
+    "uuid": "c3026d99-2528-4460-82f7-a22a5e2395f6",
+    "version": 4
 }
