@@ -28,8 +28,6 @@ program:
         topic: variant-analysis
       - name: exome-seq
         topic: variant-analysis
-      - name: sars-cov-2-variant-discovery
-        topic: variant-analysis
   - section: "Advanced analysis" 
     description: |
       Here are some more advanced tutorials you can follow if you like. They apply the previous knowledge to selected use cases and introduce Beacon for data sharing and queries. If you encounter any issues, please ask us on Slack.
@@ -39,6 +37,8 @@ program:
       - name: somatic-variant-discovery
         topic: variant-analysis
       - name: tb-variant-analysis
+        topic: variant-analysis
+      - name: sars-cov-2-variant-discovery
         topic: variant-analysis
       - name: beaconise_1000hg
         topic: variant-analysis
