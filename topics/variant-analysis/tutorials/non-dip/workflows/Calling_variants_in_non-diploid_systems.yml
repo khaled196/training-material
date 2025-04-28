@@ -1,0 +1,55 @@
+- doc: Test outline for Calling-variants-in-non-diploid-systems
+  job:
+    raw_child-ds-1.fq:
+      class: File
+      path: test-data/raw_child-ds-1.fq.fastqsanger
+      filetype: fastqsanger
+    raw_child-ds-2.fq:
+      class: File
+      path: test-data/raw_child-ds-2.fq.fastqsanger
+      filetype: fastqsanger
+    raw_mother-ds-1.fq:
+      class: File
+      path: test-data/raw_mother-ds-1.fq.fastqsanger
+      filetype: fastqsanger
+    raw_mother-ds-2.fq:
+      class: File
+      path: test-data/raw_mother-ds-2.fq.fastqsanger
+      filetype: fastqsanger
+  outputs:
+    output (Step 1):
+      path: test-data/output (Step 1).fastqsanger
+    output (Step 2):
+      path: test-data/output (Step 2).fastqsanger
+    output (Step 3):
+      path: test-data/output (Step 3).fastqsanger
+    output (Step 4):
+      path: test-data/output (Step 4).fastqsanger
+    html_file (Step 5):
+      path: test-data/html_file (Step 5).html
+    html_file (Step 6):
+      path: test-data/html_file (Step 6).html
+    bam_output (Step 7):
+      path: test-data/bam_output (Step 7).bam
+    html_file (Step 8):
+      path: test-data/html_file (Step 8).html
+    html_file (Step 9):
+      path: test-data/html_file (Step 9).html
+    bam_output (Step 10):
+      path: test-data/bam_output (Step 10).bam
+    outFile (Step 11):
+      path: test-data/outFile (Step 11).bam
+    outFile (Step 12):
+      path: test-data/outFile (Step 12).bam
+    output_bam (Step 13):
+      path: test-data/output_bam (Step 13).bam
+    out_file1 (Step 14):
+      path: test-data/out_file1 (Step 14).bam
+    output_vcf (Step 15):
+      path: test-data/output_vcf (Step 15).vcf
+    out_file1 (Step 16):
+      path: test-data/out_file1 (Step 16).vcf
+    out_file1 (Step 17):
+      path: test-data/out_file1 (Step 17).tabular
+    cut_variants:
+      path: test-data/cut_variants.tabular
