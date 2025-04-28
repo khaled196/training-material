@@ -1,4 +1,4 @@
-- doc: Test outline for Calling-variants-in-non-diploid-systems
+- doc: Test outline for Calling_variants_in_non-diploid_systems
   job:
     raw_child-ds-1.fq:
       class: File
